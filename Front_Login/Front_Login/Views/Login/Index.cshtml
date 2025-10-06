@@ -1,0 +1,294 @@
+﻿@{
+    Layout = null;  // Desactiva el uso del layout global
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1rem;
+        }
+
+        .login-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 2rem;
+        }
+
+        .login-header {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+            .login-header h1 {
+                font-size: 1.75rem;
+                color: #333;
+                margin-bottom: 0.5rem;
+            }
+
+            .login-header p {
+                color: #666;
+                font-size: 0.875rem;
+            }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+            input:focus {
+                outline: none;
+                border-color: #4f46e5;
+                box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+            }
+
+        .password-container {
+            position: relative;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #666;
+        }
+
+        .forgot-password {
+            display: block;
+            text-align: right;
+            font-size: 0.875rem;
+            color: #4f46e5;
+            text-decoration: none;
+            margin-top: 0.5rem;
+        }
+
+            .forgot-password:hover {
+                text-decoration: underline;
+            }
+
+        .login-button {
+            display: block;
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+            .login-button:hover {
+                background-color: #4338ca;
+            }
+
+            .login-button:disabled {
+                background-color: #a5a5a5;
+                cursor: not-allowed;
+            }
+
+        .signup-link {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666;
+        }
+
+            .signup-link a {
+                color: #4f46e5;
+                text-decoration: none;
+            }
+
+                .signup-link a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Estilos para mensajes de error */
+        .alert {
+            padding: 0.75rem 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+        }
+
+        .alert-danger {
+            background-color: #fee;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+
+        .alert-warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+        }
+
+        .btn-close {
+            float: right;
+            background: none;
+            border: none;
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        .countdown-message {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <main class="login-container">
+        <div class="login-header">
+            <h1>Welcome back</h1>
+            <p>Please enter your credentials to login</p>
+        </div>
+        
+        <!-- Mensajes de error -->
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                <strong>Error:</strong> @TempData["Error"]
+            </div>
+        }
+
+        <!-- Mensaje de bloqueo  -->
+        @if (ViewBag.IsBlocked != null && ViewBag.IsBlocked == true)
+        {
+            <div class="countdown-message" id="countdown-message">
+                Demasiados intentos fallidos. Espere <span id="countdown">@ViewBag.BlockTime</span> segundos.
+            </div>
+
+            <script>
+                let timeLeft = @ViewBag.BlockTime;
+                const countdownElement = document.getElementById('countdown');
+                const loginButton = document.getElementById('login-button');
+                const countdownMessage = document.getElementById('countdown-message');
+
+                const countdownInterval = setInterval(function() {
+                    timeLeft--;
+                    countdownElement.textContent = timeLeft;
+
+                    if (timeLeft <= 0) {
+                        clearInterval(countdownInterval);
+                        countdownMessage.style.display = 'none';
+                        loginButton.disabled = false;
+                        loginButton.textContent = 'Login';
+                        setTimeout(() => {
+                            window.location.href = '/Login';
+                        }, 1000);
+                    }
+                }, 1000);
+            </script>
+        }
+
+        <form asp-action="Login" asp-controller="Login" method="post" id="login-form">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <label for="userUsuario">Usuario</label>
+                <input type="text"
+                       id="userUsuario"
+                       name="userUsuario"
+                       placeholder="Ingrese su usuario"
+                       autocomplete="username">
+            </div>
+
+            <div class="form-group">
+                <label for="passUsuario">Password</label>
+                <div class="password-container">
+                    <input type="password"
+                           id="passUsuario"
+                           name="passUsuario"
+                           placeholder="Ingrese su contraseña"
+                           autocomplete="current-password">
+                    <button type="button"
+                            class="toggle-password"
+                            aria-label="Toggle password visibility"
+                            onclick="togglePasswordVisibility()">
+                        👁️
+                    </button>
+                </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-button" id="login-button"
+            @((ViewBag.IsBlocked != null && ViewBag.IsBlocked == true) ? "disabled" : "")>
+                @((ViewBag.IsBlocked != null && ViewBag.IsBlocked == true) ? "Bloqueado" : "Login")
+            </button>
+        </form>
+    </main>
+
+    <script>
+        // Función para mostrar/ocultar contraseña
+        function togglePasswordVisibility() {
+            const passwordInput = document.getElementById('passUsuario');
+            const toggleButton = document.querySelector('.toggle-password');
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleButton.textContent = '🙈';
+            } else {
+                passwordInput.type = 'password';
+                toggleButton.textContent = '👁️';
+            }
+        }
+
+        // Limpiar mensajes de error al empezar a escribir
+        document.getElementById('userUsuario').addEventListener('input', clearErrors);
+        document.getElementById('passUsuario').addEventListener('input', clearErrors);
+        
+        function clearErrors() {
+            const errorAlert = document.querySelector('.alert-danger');
+            if (errorAlert) {
+                errorAlert.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

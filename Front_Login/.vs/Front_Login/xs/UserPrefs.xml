@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{5F5B4BE0-0A26-428B-9BA3-CC21550B955F}|http">
+  <MonoDevelop.Ide.ItemProperties.Front__Login PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Front_Login/Controllers/LoginController.cs">
+    <Files>
+      <File FileName="Front_Login/Models/Usuario.cs" />
+      <File FileName="Front_Login/Models/Roles.cs" />
+      <File FileName="Front_Login/Views/Login/Index.cshtml" Line="165" Column="54" />
+      <File FileName="Front_Login/Controllers/LoginController.cs" Line="33" Column="38" />
+      <File FileName="Front_Login/Models/LoginRequest.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Front_Login">
+            <Node name="Front_Login" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="LoginController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Login" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

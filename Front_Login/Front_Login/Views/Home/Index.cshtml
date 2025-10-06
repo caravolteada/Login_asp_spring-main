@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <!-- Bienvenida personalizada -->
+    @if (ViewBag.NombreCompleto != null)
+    {
+        <div class="welcome-section">
+            <h2 class="text-success">@ViewBag.NombreCompleto</h2>
+            <p class="text-muted">Bienvenido al sistema</p>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No se pudo cargar la información del usuario
+        </div>
+    }
+
+    <div class="mt-4">
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+    <!-- Botón de logout -->
+    <div class="mt-4">
+        <a href="@Url.Action("Logout", "Login")" class="btn btn-danger">Cerrar Sesión</a>
+    </div>
+</div>
+
+<style>
+    .welcome-section {
+        background-color: #f8f9fa;
+        padding: 2rem;
+        border-radius: 8px;
+        margin: 2rem 0;
+    }
+</style>

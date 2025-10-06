@@ -1,0 +1,103 @@
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/appsettings.Development.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/appsettings.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.staticwebassets.runtime.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.deps.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.runtimeconfig.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.dll
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.pdb
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.AssemblyReference.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.AssemblyInfoInputs.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.AssemblyInfo.cs
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.CoreCompileInputs.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.RazorAssemblyInfo.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.RazorAssemblyInfo.cs
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.Front_Login.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.build.Front_Login.props
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Front_Login.props
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Front_Login.props
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.build.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.development.json
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/bundle/Front_Login.styles.css
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/projectbundle/Front_Login.bundle.scp.css
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.dll
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/refint/Front_Login.dll
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.pdb
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.genruntimeconfig.cache
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/ref/Front_Login.dll
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/davidnavarrete/Projects/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.CopyComplete
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/appsettings.Development.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/appsettings.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.staticwebassets.runtime.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.deps.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.runtimeconfig.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.dll
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Front_Login.pdb
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.AssemblyReference.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.AssemblyInfoInputs.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.AssemblyInfo.cs
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.CoreCompileInputs.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.RazorAssemblyInfo.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.RazorAssemblyInfo.cs
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.Front_Login.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.build.Front_Login.props
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Front_Login.props
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Front_Login.props
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.build.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/staticwebassets.development.json
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/bundle/Front_Login.styles.css
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/scopedcss/projectbundle/Front_Login.bundle.scp.css
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.csproj.CopyComplete
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.dll
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/refint/Front_Login.dll
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.pdb
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/Front_Login.genruntimeconfig.cache
+/Users/davidnavarrete/Projects/Login_asp_spring/Front_Login/Front_Login/obj/Debug/net7.0/ref/Front_Login.dll
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\appsettings.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.staticwebassets.runtime.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.staticwebassets.endpoints.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.exe
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.deps.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.runtimeconfig.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.dll
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Front_Login.pdb
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.csproj.AssemblyReference.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.AssemblyInfoInputs.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.AssemblyInfo.cs
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.csproj.CoreCompileInputs.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.RazorAssemblyInfo.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.RazorAssemblyInfo.cs
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\scopedcss\bundle\Front_Login.styles.css
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\scopedcss\projectbundle\Front_Login.bundle.scp.css
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets\msbuild.Front_Login.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets\msbuild.Front_Login.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets\msbuild.build.Front_Login.props
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Front_Login.props
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Front_Login.props
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Lo.DE6B5489.Up2Date
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.dll
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\refint\Front_Login.dll
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.pdb
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\Front_Login.genruntimeconfig.cache
+C:\Users\marti\OneDrive\Documentos\Visual Studio 2022\Login_asp_spring-main\Front_Login\Front_Login\obj\Debug\net7.0\ref\Front_Login.dll
